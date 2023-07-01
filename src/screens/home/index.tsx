@@ -1,12 +1,16 @@
-import { View,Text } from 'react-native'
+import { View, FlatList } from 'react-native'
 import React from 'react'
-import Card from '../../components/Card'
+import Card from '../../components/Card';
+import products from '../../products'
 
 
 export default function HomeScreen() {
   return (
     <View>
-      <Card title={'Product'} uri={'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg'} price={11.22} />
+      <FlatList
+        data={products}
+        renderItem={({ item }) => <Card item={item} />}
+      />
     </View>
   )
 }

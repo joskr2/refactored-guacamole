@@ -1,13 +1,21 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React, { FC } from 'react'
 
-interface CardProps {
+
+interface IProducts {
+  id?: string,
   title: string,
+  avgRating?: number,
+  ratings?: number,
+  price: number,
+  oldPrice?: number,
   uri: string,
-  price: number
+}
+interface Props {
+  item: IProducts
 }
 
-const Card: FC<CardProps> = ({ price, title, uri }) => {
+const Card: FC<Props> = ({ item: { uri, title, price } }) => {
   return (
     <View style={styles.page}>
       <View style={styles.root}>
@@ -31,6 +39,9 @@ const styles = StyleSheet.create({
   root: {
     backgroundColor: 'white',
     flexDirection: 'row',
+    borderWidth: 1,
+    borderColor: '#d1d1d1',
+    marginHorizontal: 20
   },
   image: {
     width: 170,
