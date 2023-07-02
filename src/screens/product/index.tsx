@@ -1,35 +1,43 @@
 import { Text, SafeAreaView, ScrollView } from 'react-native'
-import React, { FC, useState } from 'react'
+import React, { FC, useEffect, useState } from 'react'
 import { Picker } from '@react-native-picker/picker'
 import product from '../../../data/product'
 import QuantitySelector from '../../components/QuantitySelector'
 import styles from './styles'
 import Button from '../../components/Button'
 import ImageCarousel from '../../components/ImageCarousel'
+import useFetch from '../../../hooks/useFetch'
+import use from 'react';
+import IProducts from '../../../interfaces/IProduct'
 
 const ProductScreen: FC = () => {
   const [selectedValue, setSelectedValue] = useState("");
   const [quantity, setQuantity] = useState(1);
-  
+
+
+  // const data = useFetch('https://64a0ec790079ce56e2daacd6.mockapi.io/product')
+
+  const data = product[0];
+
   return (
     <SafeAreaView >
       <ScrollView style={styles.page}>
-        <Text style={styles.title}>{product.title}</Text>
-        <ImageCarousel images={product.images} />
+        <Text style={styles.title}>{data.title}</Text>
+        <ImageCarousel images={data.images} />
         <Picker
           selectedValue={selectedValue}
           onValueChange={(itemValue, _itemIndex) => setSelectedValue(itemValue)}
         >
-          {product.options.map(option => (
-            <Picker.Item label={option} value={option} />
+          {data.options.map((option,index) => (
+            <Picker.Item key={index} label={option} value={option} />
           ))}
         </Picker>
         <Text style={styles.price}>
-          Desde ${product.price} {" "}
-          {product.oldPrice && (<Text style={styles.oldPrice}>${product.oldPrice}</Text>)}
+          Desde ${data.price} {" "}
+          {data.oldPrice && (<Text style={styles.oldPrice}>${data.oldPrice}</Text>)}
         </Text>
         <Text style={styles.description}>
-          {product.description}
+          {data.description}
         </Text>
         <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
         <Button text={"Agregar"} onPress={() => { }} containerStyles={{ backgroundColor: '#e3c905' }} />

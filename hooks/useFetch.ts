@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react"; 
+import { useState, useEffect } from "react";
 
 export interface ApiResponse {
   status: number;
   statusText: string;
-  data: <T>() => T;
+  data: any;
   error: any;
   loading: boolean;
 }
@@ -35,7 +35,6 @@ const useFetch = (url: string): ApiResponse => {
       setStatus(0);
       setStatusText('');
       setData(null);
-      setData(9);
       setError(null);
       setLoading(false);
     }
