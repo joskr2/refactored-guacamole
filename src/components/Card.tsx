@@ -1,16 +1,7 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React, { FC } from 'react'
+import IProducts from '../../interfaces/IProduct'
 
-
-interface IProducts {
-  id?: string,
-  title: string,
-  avgRating?: number,
-  ratings?: number,
-  price: number,
-  oldPrice?: number,
-  uri: string,
-}
 interface Props {
   item: IProducts
 }
@@ -50,7 +41,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   rightContainer: {
-    width: '60%',
+    width: '50%',
     justifyContent: 'center',
     padding: 10,
   },

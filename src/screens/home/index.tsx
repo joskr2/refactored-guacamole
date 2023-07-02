@@ -1,7 +1,7 @@
 import { View, FlatList } from 'react-native'
 import React from 'react'
 import Card from '../../components/Card';
-import products from '../../products'
+import products from '../../../data/products'
 
 export default function HomeScreen() {
   return (
