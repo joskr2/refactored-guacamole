@@ -7,6 +7,7 @@ export default {
     'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg',
     'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg',
   ],
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, diam eget aliquam pretium, diam nibh tristique ipsum, in tin',
   options: [
     'Option 1',
     'Option 2',
