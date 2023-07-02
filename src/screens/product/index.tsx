@@ -1,18 +1,21 @@
-import { Text, View, SafeAreaView } from 'react-native'
+import { Text, SafeAreaView, ScrollView } from 'react-native'
 import React, { FC, useState } from 'react'
 import { Picker } from '@react-native-picker/picker'
 import product from '../../../data/product'
 import QuantitySelector from '../../components/QuantitySelector'
 import styles from './styles'
 import Button from '../../components/Button'
+import ImageCarousel from '../../components/ImageCarousel'
 
 const ProductScreen: FC = () => {
   const [selectedValue, setSelectedValue] = useState("");
   const [quantity, setQuantity] = useState(1);
+  
   return (
     <SafeAreaView >
-      <View style={styles.page}>
+      <ScrollView style={styles.page}>
         <Text style={styles.title}>{product.title}</Text>
+        <ImageCarousel images={product.images} />
         <Picker
           selectedValue={selectedValue}
           onValueChange={(itemValue, _itemIndex) => setSelectedValue(itemValue)}
@@ -31,7 +34,7 @@ const ProductScreen: FC = () => {
         <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
         <Button text={"Agregar"} onPress={() => { }} containerStyles={{ backgroundColor: '#e3c905' }} />
         <Button text={"Comprar"} onPress={() => { }} containerStyles={{ backgroundColor: '#db822a' }} />
-      </View>
+      </ScrollView>
     </SafeAreaView>
   )
 }

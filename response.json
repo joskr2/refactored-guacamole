@@ -1,0 +1,290 @@
+[
+  {
+    "id": "EL2870U",
+    "nombre": "Monitor Benq EL2870U",
+    "marca": "BenQ",
+    "descripcion": "Monitor Benq 28\" Modelo EL2870U, Gamer LED, resolución 3840x2160, frecuencia 60 HZ, 1MS, 4K UHD",
+    "precio": 2020.32,
+    "valoracion": 4.5,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "recomendado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/j3P2pJf/167115045487122.jpg",
+    "imagen2": "https://i.ibb.co/xjjS459/168123629123866.jpg"
+  },
+  {
+    "id": "2V6B2AA",
+    "nombre": "Monitor HP 2V6B2AA",
+    "marca": "HP",
+    "descripcion": "Monitor HP 27\" Gamer LED, frecuencia 165 HZ",
+    "precio": 680.8,
+    "valoracion": 4,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "oferta"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/1dhTSKZ/167520951358224.jpg",
+    "imagen2": "https://i.ibb.co/B6wQckq/167520951645048.jpg"
+  },
+  {
+    "id": "F27G35TFWL",
+    "nombre": "Monitor Samsung F27G35TFWL",
+    "marca": "Samsung",
+    "descripcion": "Monitor Samsung 27\" Gamer LED, frecuencia 144 HZ, resolución 1920x1080",
+    "precio": 680.8,
+    "valoracion": 5,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "destacado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/pWK3ZJf/167147362915300.jpg",
+    "imagen2": "https://i.ibb.co/dPN7LCQ/167147363485657-2.jpg"
+  },
+  {
+    "id": "32AG550",
+    "nombre": "Monitor Samsung 32AG550",
+    "marca": "Samsung",
+    "descripcion": "Monitor Samsung 32\" Gamer Odyssey 5G, frecuencia 165 HZ, resolución 2560x1440",
+    "precio": 1196.82,
+    "valoracion": 4.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "recomendado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/fngzcmm/167129241470435.jpg",
+    "imagen2": "https://i.ibb.co/sjSvWbC/167122165027461.jpg"
+  },
+  {
+    "id": "VG24VQ1B",
+    "nombre": "Monitor Asus VG24VQ1B",
+    "marca": "Asus",
+    "descripcion": "Monitor Asus 23.8\" TUF Gaming Curvo, frecuencia 165 HZ, 1MS, resolución 1920x1080",
+    "precio": 593.97,
+    "valoracion": 2.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "oferta"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/JkW5WnW/168721692460166.jpg",
+    "imagen2": "https://i.ibb.co/7jVK7J9/16872170214702.jpg"
+  },
+  {
+    "id": "27GN60R-B",
+    "nombre": "Monitor LG 27GN60R-B",
+    "marca": "LG",
+    "descripcion": "Monitor LG 27\" Gamer UltraGear, frecuencia 144 HZ, 1MS, resolución 1920x1080",
+    "precio": 750.30,
+    "valoracion": 4.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "destacado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/QJcQ1z6/167520472169064.jpg",
+    "imagen2": "https://i.ibb.co/bdYLWpj/16752047236136.jpg"
+  },
+  {
+    "id": "VA1903H",
+    "nombre": "Monitor Viewsonic VA1903H",
+    "marca": "Viewsonic",
+    "descripcion": "Monitor Viewsonic 19\" frecuencia 82 HZ, 5MS, resolución 1366x768",
+    "precio": 340.40,
+    "valoracion": 3.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "oferta"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/6XmwxY9/167106454963258.jpg",
+    "imagen2": "https://i.ibb.co/R6mLwfj/167106455485111.jpg"
+  },
+  {
+    "id": "MT-INFVA24-MB",
+    "nombre": "Monitor Gambyte MT-INFVA24-MB",
+    "marca": "Gambyte",
+    "descripcion": "Monitor Gambyte 24\" frecuencia 165 HZ, 1MS, resolución 1920x1080",
+    "precio": 512.40,
+    "valoracion": 3.6,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "recomendado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/j577p7g/167614364713605.jpg",
+    "imagen2": "https://i.ibb.co/19Gr111/167614257955015.jpg"
+  },
+  {
+    "id": "XL2731K",
+    "nombre": "Monitor Zowie XL2731K",
+    "marca": "Zowie",
+    "descripcion": "Monitor Zowie 27\", frecuencia 165 HZ, 1MS, resolución 1920x1080",
+    "precio": 1387.14,
+    "valoracion": 4.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "destacado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/PNsvP7b/167131957247391.jpg",
+    "imagen2": "https://i.ibb.co/8c7Knzv/167131957683668.jpg"
+  },
+  {
+    "id": "RL2755",
+    "nombre": "Monitor Zowie RL2755",
+    "marca": "Zowie",
+    "descripcion": "Monitor Zowie 27\", Gamer LED frecuencia 75 HZ, 1MS, resolución 1920x1080",
+    "precio": 728.34,
+    "valoracion": 3.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "oferta"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/19LJb2b/167129218387681.jpg",
+    "imagen2": "https://i.ibb.co/k1hsdbq/16711368213887.jpg"
+  },
+  {
+    "id": "24MQ400",
+    "nombre": "Monitor LG 24MQ400",
+    "marca": "LG",
+    "descripcion": "Monitor LG 24\", Gamer IPS, LED frecuencia 75 HZ, 5MS, resolución 1920x1080",
+    "precio": 418.38,
+    "valoracion": 1.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "recomendado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/9WWtQqN/168444621166625.jpg",
+    "imagen2": "https://i.ibb.co/gJq2zKK/16858139311822.jpg"
+  },
+  {
+    "id": "24B2XHM",
+    "nombre": "Monitor AOC 24B2XHM",
+    "marca": "AOC",
+    "descripcion": "Monitor AOC 23.8\", Gamer, LED frecuencia 75 HZ, 6MS, resolución 1920x1080",
+    "precio": 411.04,
+    "valoracion": 3.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "destacado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/rwTrQBg/167121103130565.jpg",
+    "imagen2": "https://i.ibb.co/JkFHwdk/167121103523150.jpg"
+  },
+  {
+    "id": "22E1HXZ",
+    "nombre": "Monitor AOC 22E1HXZ",
+    "marca": "AOC",
+    "descripcion": "Monitor AOC 21.5\", LED frecuencia 60 HZ, 5MS, resolución 1920x1080",
+    "precio": 291.77,
+    "valoracion": 3.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "oferta"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/dM2WFN4/167113962441788.jpg",
+    "imagen2": "https://i.ibb.co/xSdSrY7/167113962952263.jpg"
+  },
+  {
+    "id": "MGVIIB27NB50",
+    "nombre": "Monitor Galax MGVIIB27NB50",
+    "marca": "Galax",
+    "descripcion": "Monitor Galax 27\", Gamer IPS, LED frecuencia 165 HZ, 1MS, resolución 2560x1440",
+    "precio": 1354.23,
+    "valoracion": 2.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "recomendado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/ZM8jHWj/167112244174801.jpg",
+    "imagen2": "https://i.ibb.co/SnrH8jG/167112244828442.jpg"
+  },
+  {
+    "id": "G274RW",
+    "nombre": "Monitor MSI G274RW",
+    "marca": "MSI",
+    "descripcion": "Monitor MSI 27\", Gamer IPS, G-Sync, frecuencia 170 HZ, 1MS, resolución 2560x1440",
+    "precio": 1064.30,
+    "valoracion": 4.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "destacado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/vmXwNVf/16790898972672.jpg",
+    "imagen2": "https://i.ibb.co/JHB002z/167908990151484.jpg"
+  },
+  {
+    "id": "22J05AA#ABA",
+    "nombre": "Monitor HP 22J05AA#ABA",
+    "marca": "HP",
+    "descripcion": "Monitor HP 24.5\", Omen IPS, FHD, frecuencia 165 HZ, 1MS, resolución 1920x1080",
+    "precio": 539.99,
+    "valoracion": 2.5,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "oferta"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/7Q5wQ6g/167129694446749.jpg",
+    "imagen2": "https://i.ibb.co/nC7HCp8/167129679248244.jpg"
+  },
+  {
+    "id": "27GP750B",
+    "nombre": "Monitor LG 27GP750B",
+    "marca": "LG",
+    "descripcion": "Monitor LG 27\", Gamer UltraGear, LED frecuencia 240 HZ, 1MS, resolución 1920x1080",
+    "precio": 1209.27,
+    "valoracion": 5.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "recomendado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/ryHjBHV/167129452319234.jpg",
+    "imagen2": "https://i.ibb.co/ymjHtyc/167129444053198.jpg"
+  },
+  {
+    "id": "LS27BG402",
+    "nombre": "Monitor Samsung LS27BG402",
+    "marca": "Samsung",
+    "descripcion": "Monitor Samsung 27\", Gamer IPS, Odyssey, frecuencia 240 HZ, 1MS, resolución 2560x1440",
+    "precio": 1222.11,
+    "valoracion": 5.0,
+    "tipos": [
+      {
+        "categoria": "Monitores",
+        "clase": "destacado"
+      }
+    ],
+    "imagen1": "https://i.ibb.co/sQ91nRc/167943489198864.jpg",
+    "imagen2": "https://i.ibb.co/C09ghDD/167943489417446.jpg"
+  }
+]
