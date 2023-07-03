@@ -13,31 +13,27 @@ import IProducts from '../../../interfaces/IProduct'
 const ProductScreen: FC = () => {
   const [selectedValue, setSelectedValue] = useState("");
   const [quantity, setQuantity] = useState(1);
-
-
-  // const data = useFetch('https://64a0ec790079ce56e2daacd6.mockapi.io/product')
-
-  const data = product[0];
+  const [data,setData] = useState(product[0])
 
   return (
     <SafeAreaView >
       <ScrollView style={styles.page}>
-        <Text style={styles.title}>{data.title}</Text>
-        <ImageCarousel images={data.images} />
+        <Text style={styles.title}>{data?.title}</Text>
+        <ImageCarousel images={data?.images} />
         <Picker
           selectedValue={selectedValue}
           onValueChange={(itemValue, _itemIndex) => setSelectedValue(itemValue)}
         >
-          {data.options.map((option,index) => (
+          {data?.options?.map((option,index) => (
             <Picker.Item key={index} label={option} value={option} />
           ))}
         </Picker>
         <Text style={styles.price}>
-          Desde ${data.price} {" "}
-          {data.oldPrice && (<Text style={styles.oldPrice}>${data.oldPrice}</Text>)}
+          Desde ${data?.price} {" "}
+          {data?.oldPrice && (<Text style={styles.oldPrice}>${data?.oldPrice}</Text>)}
         </Text>
         <Text style={styles.description}>
-          {data.description}
+          {data?.description}
         </Text>
         <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
         <Button text={"Agregar"} onPress={() => { }} containerStyles={{ backgroundColor: '#e3c905' }} />
