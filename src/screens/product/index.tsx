@@ -7,8 +7,6 @@ import styles from './styles'
 import Button from '../../components/Button'
 import ImageCarousel from '../../components/ImageCarousel'
 import useFetch from '../../../hooks/useFetch'
-import use from 'react';
-import IProducts from '../../../interfaces/IProduct'
 
 const ProductScreen: FC = () => {
   const [selectedValue, setSelectedValue] = useState("");
@@ -31,6 +29,15 @@ const ProductScreen: FC = () => {
         <Text style={styles.price}>
           Desde ${data?.price} {" "}
           {data?.oldPrice && (<Text style={styles.oldPrice}>${data?.oldPrice}</Text>)}
+        </Text>
+        <Text style={styles.description}>
+          {data?.description}
+        </Text>
+        <Text style={styles.description}>
+          {data?.description}
+        </Text>
+        <Text style={styles.description}>
+          {data?.description}
         </Text>
         <Text style={styles.description}>
           {data?.description}
