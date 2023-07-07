@@ -7,5 +7,6 @@ export default interface IProducts {
   oldPrice?: number,
   uri: string,
   options?: string[],
+  images: string[],
   description?: string,
 }

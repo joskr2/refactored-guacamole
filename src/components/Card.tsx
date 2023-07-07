@@ -1,14 +1,15 @@
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View, Image, Pressable } from 'react-native'
 import React, { FC } from 'react'
 import IProducts from '../../interfaces/IProduct'
 
 interface Props {
-  item: IProducts
+  item: IProducts,
+  onPress?: () => void
 }
 
-const Card: FC<Props> = ({ item: { uri, title, price } }) => {
+const Card: FC<Props> = ({ item: { uri, title, price }, onPress }) => {
   return (
-    <View style={styles.page}>
+    <Pressable style={styles.page} onPress={onPress}>
       <View style={styles.root}>
         <Image style={styles.image} source={{ uri }} />
         <View style={styles.rightContainer}>
@@ -16,7 +17,7 @@ const Card: FC<Props> = ({ item: { uri, title, price } }) => {
           <Text style={styles.price}>Desde ${price}</Text>
         </View>
       </View>
-    </View>
+    </Pressable>
   )
 }
 

@@ -1,46 +1,62 @@
 import { Text, SafeAreaView, ScrollView } from 'react-native'
-import React, { FC, useEffect, useState } from 'react'
+import React, { FC, useState } from 'react'
 import { Picker } from '@react-native-picker/picker'
-import product from '../../../data/product'
 import QuantitySelector from '../../components/QuantitySelector'
 import styles from './styles'
 import Button from '../../components/Button'
 import ImageCarousel from '../../components/ImageCarousel'
-import useFetch from '../../../hooks/useFetch'
+import IProducts from '../../../interfaces/IProduct';
 
-const ProductScreen: FC = () => {
+interface Props {
+  route: {
+    params: IProducts
+  }
+}
+
+const ProductScreen: FC<Props> = ({
+  route: {
+    params: {
+      title,
+      description,
+      price,
+      oldPrice,
+      images,
+      options
+    }
+  }
+}) => {
+
   const [selectedValue, setSelectedValue] = useState("");
   const [quantity, setQuantity] = useState(1);
-  const [data,setData] = useState(product[0])
 
   return (
     <SafeAreaView >
       <ScrollView style={styles.page}>
-        <Text style={styles.title}>{data?.title}</Text>
-        <ImageCarousel images={data?.images} />
+        <Text style={styles.title}>{title}</Text>
+        <ImageCarousel images={images} />
         <Picker
           selectedValue={selectedValue}
           onValueChange={(itemValue, _itemIndex) => setSelectedValue(itemValue)}
         >
-          {data?.options?.map((option,index) => (
+          {options?.map((option, index) => (
             <Picker.Item key={index} label={option} value={option} />
           ))}
         </Picker>
         <Text style={styles.price}>
-          Desde ${data?.price} {" "}
-          {data?.oldPrice && (<Text style={styles.oldPrice}>${data?.oldPrice}</Text>)}
+          Desde ${price} {" "}
+          {oldPrice && (<Text style={styles.oldPrice}>${oldPrice}</Text>)}
         </Text>
         <Text style={styles.description}>
-          {data?.description}
+          {description}
         </Text>
         <Text style={styles.description}>
-          {data?.description}
+          {description}
         </Text>
         <Text style={styles.description}>
-          {data?.description}
+          {description}
         </Text>
         <Text style={styles.description}>
-          {data?.description}
+          {description}
         </Text>
         <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
         <Button text={"Agregar"} onPress={() => { }} containerStyles={{ backgroundColor: '#e3c905' }} />
