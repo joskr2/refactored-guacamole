@@ -1,12 +1,12 @@
 import { FlatList, StyleSheet, Image, View, useWindowDimensions } from 'react-native'
 import { FC, useCallback, useState, useRef } from 'react'
+import React from 'react';
 
 interface Props {
   images: string[]
 }
 
 const ImageCarousel: FC<Props> = ({ images }) => {
-  
   const [activeIndex, setActiveIndex] = useState(0);
   const windowWidth = useWindowDimensions().width; // 100vw
   const viewConfigRef = useRef({ viewAreaCoveragePercentThreshold: 50 })

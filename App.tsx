@@ -2,16 +2,17 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/screens/home'
 import ProductScreen from './src/screens/product'
+import React from 'react';
 
-const Stack = createNativeStackNavigator();
+const { Navigator, Screen } = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Products" component={ProductScreen} />
-      </Stack.Navigator>
+      <Navigator initialRouteName="Home">
+        <Screen name="Home" component={HomeScreen} />
+        <Screen name="Products" component={ProductScreen} />
+      </Navigator>
     </NavigationContainer>
   )
 }

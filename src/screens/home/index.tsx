@@ -10,7 +10,6 @@ export default function HomeScreen({ navigation }) {
     navigation.navigate('Products', {
       ...items
     })
-    console.log(items,"ITEMS desde HOME SCREEN hacia Products Screen ")
   }
 
   return (
