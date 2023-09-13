@@ -140,10 +140,3 @@ If you'd like to contribute to this project, please follow these steps:
 3. Make your changes and commit them.
 4. Push the changes to your fork.
 5. Create a pull request with a clear description of your changes.
-
-## License
-
-This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
-```
-
-Solo reemplaza `<repository-url>` con la URL real de tu repositorio Git y realiza cualquier otro ajuste necesario en el README. Este es un template completo que proporciona una visión general de la estructura de tu proyecto y los componentes, lo que facilita que otros comprendan y contribuyan a tu proyecto.
